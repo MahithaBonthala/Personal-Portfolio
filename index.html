@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="./style.css">
+    
+    <script src="https://kit.fontawesome.com/e674bba739.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <p class="title">My <span>P</span>ortfolio</p>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times"></i>
+                </ul>
+                <i class="fas fa-bars"></i>
+            </nav>
+            <div class="header-text">
+                <p>Full Stack Developer</p>
+                <h1>Hii There, I'm <span>Mahitha</span><br>Bonthala </h1>
+            </div>
+        </div>
+    </div>
+    <!-- ----------ABOUT---------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="./assets/image.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>As a recent graduate with a degree in Computer Science, I am enthusiastic about applying my skills and knowledge to solve real-world problems. I am a quick learner and enjoy working in a collaborative environment. I am proficient in programming languages such as HTML, CSS, JavaScript, JAVA and have experience working with databases and web development frameworks.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="openTab('skills')">Skills</p>
+                        <p class="tab-links" onclick="openTab('experience')">Experience</p>
+                        <p class="tab-links" onclick="openTab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                            <li><span>Web Development</span><br>Building Web Applications</li>
+                            <li><span>Software Development</span><br>Building Software Using Java</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2023 - Current</span><br>Several Websites withHTML,CSS,Javascript.</li>
+                            <li><span>2023-Current</span><br>Web  Development</li>
+                            <li><span>2023-Current</span><br>UI/UX Design </li>
+                            <li><span>2023-Current</span><br>Internship at Social Prachar.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2023</span><br> Trained in UI/UX Design</li>
+                            <li><span>2023 </span><br>Trained in Web Development</li>
+                            <li><span>2023</span><br>B.Tech in the Stream of CSE</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ----------SERVICES---------- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-brands fa-android"></i>
+                    <h2>Java Software Developer</h2>
+                    <p>Welcome to my portfolio website! I am a Java developer with a passion for creating efficient and robust software solutions</p>
+                    <!-- <a href="#">Learn more</a> -->
+                </div>
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Development</h2>
+                    <p>I can Develop Responsive Website based on Client Requirements...</p>
+                    <!-- <a href="#">Learn more</a> -->
+
+                </div>
+                <div>
+
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>I can Create and Attractive and Visually Appealing UI/UX Designs....</p>
+                    <!-- <a href="#">Learn more</a> -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ----------PORTFOLIO--------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Works</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="./assets/Screenshot 2023-08-16 092823.png" alt="">
+                    <div class="layer">
+                        <h2>Tic Tac Toe</h2>
+                        <p> Interactive Tic Tac Toe game that allows player to take both turns and determines the winner based on the game logic.  Using Only HTML and CSS</p>
+                        <a href="https://mahithabonthala.github.io/Tic-Tac-Toe/"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img class="img2"  src="./assets/Screenshot 2023-08-16 102519.png" alt="">
+                    <div class="layer">
+                        <h2>Ecommerce Website</h2>
+                        <p>An Ecommerce Website Which Contains SlideShow, Feature Section,Add to Cart and Payment Functionalities Using HTML,CSS,JavaScript</p>
+                        <a href="https://mahithabonthala.github.io/Ecommerce-Website/"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./assets/Screenshot 2023-08-16 092539.png" alt="">
+                    <div class="layer">
+                        <h2>BMI Calculator</h2>
+                        <p>Customized Body,Mass< Index calucator. provides BMI index based on User Input's. Made With javaScript.</p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img class="img2"  src="./assets/Screenshot 2023-08-16 092136.png" alt="">
+                    <div class="layer">
+                        <h2>Country Guide</h2>
+                        <p>Gives Country Information , Based on the User Input. Done with JavaScript.</p>
+                        <a href="https://mahithabonthala.github.io/CountryGuide/"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img class="img2"  src="./assets/Screenshot 2023-08-16 091923.png" alt="">
+                    <div class="layer">
+                        <h2>Random Quote Generator</h2>
+                        <p>Generates Random Quote by clicking on Generate button.Made with Javascript</p>
+                        <a href="https://mahithabonthala.github.io/Random-Quote-Generator/"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+
+
+                <div class="work">
+                    <img class="img2"  src="./assets/Screenshot 2023-08-16 103923.png" alt="">
+                    <div class="layer">
+                        <h2>Pets Website</h2>
+                        <p>Displays Pets Information and Pet Parenting Tips.Made with Only HTML and CSS</p>
+                        <a href="https://mahithabonthala.github.io/Pets-Website/"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+
+            </div>
+            <a href="https://github.com/MahithaBonthala" class="btn">See more</a>
+        </div>
+    </div>
+
+    <!-- ----------CONTACT---------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fas fa-paper-plane"></i> mahithabonthala18420@gmail.com</p>
+                    <p><i class="fas fa-phone-square-alt"></i> 8331980450</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="https://github.com/MahithaBonthala"><i class="fab fa-github"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/mahitha-bonthala"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                    <a href="./assets/resume.png" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn3">submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>copyright @ Mahitha. Made with <i class="fas fa-heart"></i> Mahitha</p>
+        </div>
+    </div>
+
+
+
+    <script>
+        var tabLinks = document.getElementsByClassName('tab-links');
+        var tabContents = document.getElementsByClassName('tab-contents');
+
+        function openTab(tabName) {
+            for (tabLink of tabLinks) {
+                tabLink.classList.remove('active-link');
+            }
+            for (tabContent of tabContents) {
+                tabContent.classList.remove('active-tab');
+            }
+            event.currentTarget.classList.add('active-link');
+            document.getElementById(tabName).classList.add('active-tab');
+        }
+
+        // JavaScript for handling the mobile navigation menu
+        document.querySelector('.fas.fa-bars').addEventListener('click', function () {
+            document.querySelector('nav ul').classList.toggle('show');
+        });
+
+        document.querySelector('.fas.fa-times').addEventListener('click', function () {
+            document.querySelector('nav ul').classList.remove('show');
+        });
+
+    </script>
+</body>
+
+</html>
